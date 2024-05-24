@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    align-items: center;
+    background-color: black;
+    padding: 12px;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container img{
+    height: 50px;
+    position: absolute;
+}
+
+header h1{
+    color: white;
+    margin-left: 50px;
+}
+
+header .container nav li {
+    display: inline;
+}
+
+header .container nav li a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+section .container img {
+    height: 750px;
+    position: absolute;
+}
